@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration:none;
+    color: #e5e7Eb;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+.link-section{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    font-weight: thin;
+}
+
+.link{
+    font-size: 18px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.section-1{
+    display: flex;
+    background-color: #1f2937;
+    padding: 40px;
+    gap: 10px;
+}
+
+.section-1 .top{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.section-1 .mid{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 .button{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.section-1 .button:hover{
+    color: #3882f6;
+    background-color: white;
+}
+
+.MAN-truck{
+    max-width: 400px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info-header{
+    align-items: center;
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.image{
+    max-height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.image-section{
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    gap: 50px;
+}
+
+.image-section .text{
+    opacity: 0.8;
+}
+
+.section-3{
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.author{
+    font-size: 25px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding-top: 10px;
+}
+
+.header, .section-1, .section-2, .footer, .section-3{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.call-to-action-section{
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px 0;
+    display: flex;
+    padding: 30px  100px;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.call-to-action-section .right{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    justify-content: center;
+}
+
+.call-to-action-section .right:hover{
+    color: #3882f6;
+    background-color: white;
+}
+
+.call-to-action-section .left{
+    color: white;
+}
+
+.call-to-action-section .left .top{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call-to-action-section .left .bot{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color:#1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
