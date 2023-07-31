@@ -9,7 +9,7 @@ This repository contains the code for a sleek and modern landing page designed f
 The landing page is built using HTML and CSS, making it lightweight and fast-loading.
 
 🌐 Live Demo:
-[Link to Live Demo]([https://bogdanncalin.github.io/landing-page/])
+[Click here](https://bogdanncalin.github.io/landing-page/)
 
 📁 Getting Started:
 Feel free to explore the code in this repository to understand the structure and customize the landing page as you wish.
